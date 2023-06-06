@@ -3,7 +3,7 @@ import time
 from prometheus_client import start_http_server, Histogram, Counter
 import fluent.sender
 
-bot_token = '6036098503:AAHUk0XuznNMgiG5Luk2b4G7iLFh2iUlvJE'
+bot_token = 'your-token'
 
 fluentd_host = '127.0.0.1'
 fluentd_port = 24224
